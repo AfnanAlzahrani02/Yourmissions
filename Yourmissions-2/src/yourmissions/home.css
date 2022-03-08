@@ -1,0 +1,8 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-image:url("y.png");
+-fx-size: cover;
+}

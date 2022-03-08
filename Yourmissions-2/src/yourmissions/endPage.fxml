@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yourmissions.endPageControler">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="489.0" style="-fx-background-color: #78c7c7;">
+         <children>
+            <Label alignment="TOP_CENTER" layoutX="86.0" layoutY="175.0" prefHeight="44.0" prefWidth="296.0" text="We hope to see you again later" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Bernard MT Condensed" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

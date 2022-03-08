@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" onKeyPressed="#pane1method" onMouseClicked="#panemethod" prefHeight="441.0" prefWidth="636.0" style="-fx-background-color: #78c7c7;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@../../../Advance_program/src/advance_program/fxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="193.0" layoutY="28.0" text="Home Page For Worke" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="172.0" layoutY="108.0" prefHeight="22.0" prefWidth="119.0" text="Your Tasks :" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="439.0" layoutY="375.0" mnemonicParsing="false" onAction="#finishTask" prefHeight="31.0" prefWidth="119.0" style="-fx-background-color: #E54E2;" text="Finish All Tasks">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="textaria" editable="false" focusTraversable="false" layoutX="149.0" layoutY="154.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

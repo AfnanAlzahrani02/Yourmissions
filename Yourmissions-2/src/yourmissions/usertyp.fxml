@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yourmissions.UsertypController">
+    <stylesheets>
+        <URL value="@usertyp.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="pane" layoutX="-3.0" onKeyPressed="#pane1method" onMouseClicked="#panemethod" prefHeight="405.0" prefWidth="620.0" style="-fx-background-color: #78c7c7;" styleClass="mainFxmlClass">
+         <stylesheets>
+            <URL value="@add_worker.css" />
+         </stylesheets>
+         <children>
+            <Button focusTraversable="false" layoutX="138.0" layoutY="179.0" mnemonicParsing="false" onAction="#switchCreate_account" prefHeight="47.0" prefWidth="107.0" style="-fx-background-color: #E54E2;" text=" WORKER" textFill="#363434">
+               <font>
+                  <Font name="Bell MT" size="14.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="192.0" layoutY="25.0" prefHeight="43.0" prefWidth="182.0" text="user type" textFill="#fff8f8">
+               <font>
+                  <Font name="Bell MT" size="36.0" />
+               </font></Label>
+            <Button focusTraversable="false" layoutX="362.0" layoutY="179.0" mnemonicParsing="false" onAction="#switchCreat_account_user" prefHeight="47.0" prefWidth="107.0" style="-fx-background-color: #E54E2;" text="user" textFill="#1b1a1a">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

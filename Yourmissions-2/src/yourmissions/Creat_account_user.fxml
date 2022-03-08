@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="yourmissions.Creat_account_userController">
+    <stylesheets>
+        <URL value="@creat_account_user.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="276.0" layoutY="14.0" />
+      <AnchorPane id="AnchorPane" fx:id="pane" onKeyPressed="#pane1method" onMouseClicked="#panemethod" prefHeight="661.0" prefWidth="600.0" style="-fx-background-color: #78C7C7;" styleClass="mainFxmlClass">
+         <stylesheets>
+            <URL value="@fxml1.css" />
+         </stylesheets>
+         <children>
+            <Label alignment="CENTER" layoutX="161.0" layoutY="23.0" prefHeight="45.0" prefWidth="257.0" text="Sign up for user" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="e1" layoutX="101.0" layoutY="84.0" text="Email" textFill="#f5f2f2" />
+            <TextField fx:id="t1" focusTraversable="false" layoutX="99.0" layoutY="109.0" prefHeight="28.0" prefWidth="368.0" promptText="Enter email..." />
+            <Label fx:id="p1" layoutX="101.0" layoutY="150.0" text="Password" textFill="#f8f7f7" />
+            <Label fx:id="u1" layoutX="101.0" layoutY="213.0" text="Username" textFill="#f5f3f3" />
+            <Button fx:id="creat" alignment="CENTER" layoutX="196.0" layoutY="508.0" mnemonicParsing="false" onAction="#creatuser" prefHeight="34.0" prefWidth="159.0" style="-fx-background-color: #E54E2;" text="CREATE ACCOUNT">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="t3" focusTraversable="false" layoutX="98.0" layoutY="236.0" prefHeight="28.0" prefWidth="368.0" promptText="Enter username..." />
+            <Label fx:id="f1" layoutX="101.0" layoutY="276.0" text="Full Name" textFill="#e4e2e2" />
+            <TextField fx:id="t4" focusTraversable="false" layoutX="101.0" layoutY="299.0" prefHeight="28.0" prefWidth="368.0" promptText="Enter full name..." />
+            <Label fx:id="D1" layoutX="100.0" layoutY="340.0" text="Date Of Birth" textFill="#fcfcfc" />
+            <TextField fx:id="t5" focusTraversable="false" layoutX="99.0" layoutY="365.0" prefHeight="28.0" prefWidth="368.0" promptText="Thursday, May 4th, 2019 at 4:00 PM" />
+            <PasswordField fx:id="t2" focusTraversable="false" layoutX="98.0" layoutY="174.0" prefHeight="28.0" prefWidth="368.0" promptText="Enter password..." />
+            <TextField fx:id="t6" focusTraversable="false" layoutX="99.0" layoutY="428.0" prefHeight="28.0" prefWidth="368.0" promptText="Enter your NID..." />
+            <Label fx:id="N1" layoutX="99.0" layoutY="405.0" text="NID" textFill="#fcf5f5" />
+            <Button alignment="CENTER" layoutX="179.0" layoutY="552.0" mnemonicParsing="false" onAction="#switclogin_user" prefHeight="34.0" prefWidth="207.0" style="-fx-background-color: #E54E2;" text="Areaday Have Account !">
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="s" layoutX="164.0" layoutY="477.0" prefHeight="21.0" prefWidth="249.0" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="24.0" layoutY="24.0" mnemonicParsing="false" onAction="#switchtoHome" prefHeight="10.0" prefWidth="23.0" style="-fx-background-color: none;" styleClass="btn" stylesheets="@log_in_worker.css" />
+   </children>
+</AnchorPane>
